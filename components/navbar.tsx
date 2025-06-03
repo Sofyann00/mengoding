@@ -121,8 +121,8 @@ export function Navbar() {
 
         <div className="ml-auto flex items-center gap-x-4">
           <Link href="/cart" className="relative">
-            <Button variant="ghost" size="icon">
-              <ShoppingCart className="h-5 w-5" />
+            <Button variant="ghost" size="icon" className="hover:text-white">
+              <ShoppingCart className="h-5 w-5 text-black hover:text-white" />
             </Button>
             {state.items.length > 0 && (
               <Badge 
@@ -136,8 +136,8 @@ export function Navbar() {
           
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <User className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:text-white">
+                <User className="h-5 w-5 text-black hover:text-white" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
