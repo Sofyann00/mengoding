@@ -33,10 +33,10 @@ export default function Home() {
           >
             <div className="relative">
               <h1 className="text-6xl font-bold sm:text-8xl text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 tracking-tight">
-                Digital Innovation
+                Inovasi Digital
               </h1>
               <h2 className="text-4xl font-bold sm:text-6xl mt-4 text-white bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-400 tracking-tight">
-                Made Simple
+                Untuk Bisnis Anda
               </h2>
             </div>
           </motion.div>
@@ -47,8 +47,8 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-12 text-xl leading-8 text-gray-300 max-w-2xl mx-auto font-light"
           >
-            We transform complex technology challenges into elegant solutions. From cloud architecture to digital transformation, 
-            we're your strategic partner in navigating the digital landscape.
+            Kami mengubah tantangan teknologi menjadi solusi yang elegan. Dari arsitektur cloud hingga transformasi digital, 
+            kami adalah mitra strategis Anda dalam menghadapi era digital.
           </motion.p>
           
           <motion.div 
@@ -60,7 +60,7 @@ export default function Home() {
             <Link href="/marketplace">
               <Button size="lg" className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-white bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-300 ease-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded-xl shadow-lg hover:shadow-xl">
                 <span className="relative flex items-center">
-                  Discover Solutions
+                  Lihat Layanan
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
               </Button>
@@ -84,11 +84,11 @@ export default function Home() {
           >
             <div className="inline-block">
               <span className="inline-flex items-center rounded-full px-4 py-1 text-sm font-medium bg-blue-50 text-blue-600 ring-1 ring-inset ring-blue-600/20">
-                Our Expertise
+                Keahlian Kami
               </span>
             </div>
             <h2 className="mt-6 text-4xl font-bold tracking-tight sm:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-600 to-purple-600">
-              Strategic Technology Solutions
+              Solusi Teknologi Strategis
             </h2>
           </motion.div>
           
@@ -122,7 +122,7 @@ export default function Home() {
                           variant="outline" 
                           className="w-full group-hover:bg-blue-50 group-hover:text-blue-600 group-hover:border-blue-200 transition-colors duration-300"
                         >
-                          Learn More
+                          Pelajari Lebih Lanjut
                           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Button>
                       </Link>
@@ -150,11 +150,11 @@ export default function Home() {
           >
             <div className="inline-block">
               <span className="inline-flex items-center rounded-full px-4 py-1 text-sm font-medium bg-blue-500/10 text-blue-400 ring-1 ring-inset ring-blue-500/20">
-                Why Choose Us
+                Mengapa Memilih Kami
               </span>
             </div>
             <h2 className="mt-6 text-4xl font-bold tracking-tight sm:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400">
-              Excellence in Every Detail
+              Keunggulan dalam Setiap Detail
             </h2>
           </motion.div>
           
@@ -192,18 +192,18 @@ export default function Home() {
 
 const features = [
   {
-    name: 'Cutting-Edge Technology',
-    description: 'Leveraging the latest advancements in cloud computing, AI, and modern frameworks to build scalable and future-proof solutions.',
+    name: 'Teknologi Terkini',
+    description: 'Memanfaatkan kemajuan terbaru dalam komputasi awan, AI, dan framework modern untuk membangun solusi yang scalable dan berkelanjutan.',
     icon: <Zap className="h-5 w-5 text-blue-400" />,
   },
   {
-    name: 'Strategic Consulting',
-    description: 'Expert guidance in digital transformation, helping businesses navigate complex technological challenges with confidence.',
+    name: 'Konsultasi Strategis',
+    description: 'Panduan ahli dalam transformasi digital, membantu bisnis mengatasi tantangan teknologi dengan percaya diri.',
     icon: <Cpu className="h-5 w-5 text-blue-400" />,
   },
   {
-    name: 'Enterprise Security',
-    description: 'Implementing robust security measures and best practices to protect your digital assets and ensure business continuity.',
+    name: 'Keamanan Enterprise',
+    description: 'Menerapkan langkah-langkah keamanan yang kuat dan praktik terbaik untuk melindungi aset digital dan memastikan kelangsungan bisnis.',
     icon: <Shield className="h-5 w-5 text-blue-400" />,
   },
 ]
