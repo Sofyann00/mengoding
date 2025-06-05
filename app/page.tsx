@@ -117,13 +117,15 @@ export default function Home() {
                       <p className="text-sm text-gray-600 mt-2 group-hover:text-blue-500 transition-colors duration-300">{formatPrice(product.price)}</p>
                     </div>
                     <div className="mt-6">
-                      <Button 
-                        variant="outline" 
-                        className="w-full group-hover:bg-blue-50 group-hover:text-blue-600 group-hover:border-blue-200 transition-colors duration-300"
-                      >
-                        Learn More
-                        <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                      </Button>
+                      <Link href={`/products/${product.id}`}>
+                        <Button 
+                          variant="outline" 
+                          className="w-full group-hover:bg-blue-50 group-hover:text-blue-600 group-hover:border-blue-200 transition-colors duration-300"
+                        >
+                          Learn More
+                          <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                        </Button>
+                      </Link>
                     </div>
                   </CardContent>
                 </Card>
