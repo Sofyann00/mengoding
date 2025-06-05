@@ -236,7 +236,7 @@ export function CheckoutForm() {
             </div>
             <div className="text-center space-y-2">
               <p className="font-semibold">Mandiri</p>
-              <p className="font-mono text-xl">1640006525408</p>
+              <p className="font-mono text-xl">1640006552444</p>
               <div className="text-center mb-2">PT KASIH TEKNOLOGI ASIA</div>
             </div>
             <Button 
