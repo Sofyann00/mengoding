@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - PT INOVASI SEMBILAN TANGAN',
-  description: 'Terms of Service and conditions for using Sejasatek services',
+  title: 'Terms of Service - PT KASIH TEKNOLOGI ASIA',
+  description: 'Terms of Service and conditions for using mengoding services',
 }
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
                 1. Agreement to Terms
               </h2>
               <p className="text-muted-foreground">
-                By accessing and using the services provided by PT INOVASI SEMBILAN TANGAN (hereinafter referred to as &quot;Sejasatek&quot;), you accept and agree to be bound by the terms and provisions of this agreement.
+                By accessing and using the services provided by PT KASIH TEKNOLOGI ASIA (hereinafter referred to as &quot;mengoding&quot;), you accept and agree to be bound by the terms and provisions of this agreement.
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function TermsPage() {
                 2. Products and Services
               </h2>
               <p className="text-muted-foreground">
-                Sejasatek provides authentic sneakers and related footwear products. All product listings, including prices, availability, and specifications, are subject to change without prior notice. We guarantee the authenticity of all products sold through our platform.
+                mengoding provides authentic sneakers and related footwear products. All product listings, including prices, availability, and specifications, are subject to change without prior notice. We guarantee the authenticity of all products sold through our platform.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function TermsPage() {
                 5. Limitation of Liability
               </h2>
               <p className="text-muted-foreground">
-                While we guarantee product authenticity, Sejasatek shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services, including but not limited to sizing issues or personal preferences.
+                While we guarantee product authenticity, mengoding shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services, including but not limited to sizing issues or personal preferences.
               </p>
             </div>
 
@@ -79,12 +79,12 @@ export default function TermsPage() {
               <div className="text-muted-foreground">
                 <p>For any questions about these Terms of Service, please contact us at:</p>
                 <div className="mt-2">
-                  <p>PT INOVASI SEMBILAN TANGAN</p>
+                  <p>PT KASIH TEKNOLOGI ASIA</p>
                   <p>Komplek Perkantoran Duta Merlin Blok F13</p>
                   <p>Jalan Gajah Mada, Petojo Utara</p>
                   <p>Gambir, Jakarta Pusat</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@Sejasatek.com</p>
+                  <p>Email: admin@mengoding.com</p>
                   <p>Phone: (021) 50111528</p>
                 </div>
               </div>

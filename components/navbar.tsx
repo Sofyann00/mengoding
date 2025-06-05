@@ -98,11 +98,11 @@ export function Navbar() {
         <div className="flex items-center gap-x-2 ml-4 lg:ml-0">
         <img 
                 src="/app_icon.png" 
-                alt="Sejasatek Logo"
+                alt="mengoding Logo"
                 width={42}
                 height={42}
               />
-          <span className="text-xl font-bold text-black">Sejasatek</span>
+          <span className="text-xl font-bold text-black">mengoding</span>
         </div>
 
         <nav className="mx-6 hidden lg:flex items-center space-x-4 lg:space-x-6">

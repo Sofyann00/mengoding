@@ -12,7 +12,7 @@ import { FilterProvider } from "@/contexts/filter-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sejasatek - Professional Software Development Services",
+  title: "mengoding - Professional Software Development Services",
   description: "Your trusted partner for professional software development services. Specializing in full-stack development, mobile apps, cloud solutions, and custom software using cutting-edge technologies like Next.js, React, Node.js, and more.",
   icons: {
     icon: "/favicon/favicon.ico",

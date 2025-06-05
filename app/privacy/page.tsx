@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - PT INOVASI SEMBILAN TANGAN',
-  description: 'Privacy Policy for Sejasatek services and customer data protection',
+  title: 'Privacy Policy - PT KASIH TEKNOLOGI ASIA',
+  description: 'Privacy Policy for mengoding services and customer data protection',
 }
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
                 1. Information We Collect
               </h2>
               <p className="text-muted-foreground">
-                Sejasatek collects personal information including but not limited to: name, email address, phone number, shipping address, shoe size preferences, purchase history, and payment information when you make a purchase or create an account on our platform.
+                mengoding collects personal information including but not limited to: name, email address, phone number, shipping address, shoe size preferences, purchase history, and payment information when you make a purchase or create an account on our platform.
               </p>
             </div>
 
@@ -95,12 +95,12 @@ export default function PrivacyPage() {
               <div className="text-muted-foreground">
                 <p>For any questions about this Privacy Policy, product authenticity, or our data practices, please contact us at:</p>
                 <div className="mt-2">
-                  <p>PT INOVASI SEMBILAN TANGAN</p>
+                  <p>PT KASIH TEKNOLOGI ASIA</p>
                   <p>Komplek Perkantoran Duta Merlin Blok F13</p>
                   <p>Jalan Gajah Mada, Petojo Utara</p>
                   <p>Gambir, Jakarta Pusat</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: support@Sejasatek.com</p>
+                  <p>Email: support@mengoding.com</p>
                   <p>Phone: (021) 50111528</p>
                 </div>
               </div>

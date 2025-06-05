@@ -11,11 +11,11 @@ export function Footer() {
             <div className="flex items-center gap-x-2">
               <img 
                 src="/app_icon.png" 
-                alt="Sejasatek Logo"
+                alt="mengoding Logo"
                 width={42}
                 height={42}
               />
-              <span className="text-xl font-bold">Sejasatek</span>
+              <span className="text-xl font-bold">mengoding</span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
             Your trusted software development partner. We specialize in building modern web applications, 
@@ -64,10 +64,10 @@ export function Footer() {
               <div className="space-y-2">
                 <p>
                   <a
-                    href="mailto:admin@Sejasatek.com"
+                    href="mailto:admin@mengoding.com"
                     className="hover:text-foreground transition-colors"
                   >
-                    admin@Sejasatek.com
+                    admin@mengoding.com
                   </a>
                 </p>
                 <p>
@@ -100,7 +100,7 @@ export function Footer() {
           {/* Copyright section */}
           <div className="col-span-1 md:col-span-4 mt-16 pt-8 border-t">
             <p className="text-sm text-muted-foreground text-center">
-              © {new Date().getFullYear()} PT INOVASI SEMBILAN TANGAN.
+              © {new Date().getFullYear()} PT KASIH TEKNOLOGI ASIA.
             </p>
           </div>
         </div>
